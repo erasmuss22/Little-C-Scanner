@@ -1,0 +1,75 @@
+{
+}
+(
+)
+,
+=
+;
++
+-
+*
+/
+++
+--
+!
+&&
+||
+==
+!=
+<
+>
+<=
+>=
++++
+---
+===
+&
+int
+void
+double
+if
+else
+while
+return
+scanf
+printf
+inten
+voiden
+doublen
+ifen
+elsen
+whilen
+returnen
+scanfen
+printfen
+int5_asd
+int4
+int3_
+_int
+_int3
+_int3_
+3int
+in_t3
+"%d"
+"%f"
+"\"%d\""
+"\"%f\""
+1234
+11111111111111111111111111111111111111111111111111111111
+27.22
+.22
+20.
+0.0.0
+.0.0
+1,000.0
+.
+"hello"
+"newline \n"
+"tab \t"
+"single quote \'"
+"double quote \""
+"backslash \\"
+""
+/* This is a comment, it should be ignored */
+/* comment followed by a string */ "string after comment"
+"string before comment" /* comment */

@@ -1,0 +1,10 @@
+Erin Rasmussen
+rasmusse
+ejrasmussen2@wisc.edu
+
+&   the scanner returns && instead of a single &
+ID  the scanner reads in leading underscores as illegal chars, so _int3 becomes int3
+charnum  For a string, charnum does not increase at all. It only increases by the whitespace between strings and not the length of the string
+COMMENT  For a comment, charnum does not increase at all, just like the string problem
+Unterminated String  An unterminated string followed by EOF does not produce an error
+""  the empty string returns as a string with a bad escaped character despite having "zero or more string characters in double quotes

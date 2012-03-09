@@ -1,0 +1,10 @@
+{ } ( ) , = ; + - * / ! < > ++ -- && || == != <= >= & {
+int double void if else while return scanf printf
+identifier anotherIdentifier12
+"string line 2, char 1" "string line 2 car 25""string line 3 char 47"
+"string line 3, char 1"   "string line 3 char 27"
+"%d" "%f"
+"string line 5, char 1, newline symbol \n "  "string line 5, char 46"
+/* comment followed by string at char 45 */ "hello"
+
+     			"string after 5 spaces, 2 tabs"

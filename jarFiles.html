@@ -1,0 +1,65 @@
+<HTML>
+<HEAD>
+  <TITLE>CS 536, How to Download JLex and Java Cup</title>
+</HEAD>
+<BODY>
+
+<H1>How to Download and use JLex and Java Cup</H1>
+<P>
+To use JLex and Java Cup on your own computer, you can download
+the latest versions from the Internet.
+However, the latest version of JLex doesn't allow comments in the
+second part of the specification.
+This is annoying, and will cause JLex to fail on the provided
+skeleton specification.
+<P>
+A good alternative is to use the <em>jar files</em> in
+<UL>
+<tt>~cs536-1/public/JAVA</tt>
+</UL>
+The files are called <tt>JLex.jar</tt> and <tt>java_cup.jar</tt>.
+To use them, copy them to your own computer and put them in the
+directory (folder) where you plan to write the code for your second
+programming assignment.
+You can either set your <tt>CLASSPATH</tt> to include the current
+directory as well as the two jar files, or you can use a
+<tt>classpath</tt> flag each time you use JLex to process your
+scanner specification and each time you compile the generated scanner.
+<P>
+<H2>Setting CLASSPATH</H2>
+<P>
+To set your <tt>CLASSPATH</tt> on a Linux machine, type:
+<UL>
+<tt>setenv CLASSPATH ".:JLex.jar:java_cup.jar"</tt>
+</UL>
+Then (as long as you continue to work in the same window
+and the same directory)
+you can simply run JLex and compile the generated
+scanner as defined in the <tt>Makefile</tt> that was provided
+for program 2:
+<UL>
+<tt>java JLex.Main Little.jlex</tt><br>
+<tt>javac Little.jlex.java</tt>
+</UL>
+<P>
+<H2>Using the classpath flag</H2>
+<P>
+<H3>Linux</H3>
+On a Linux machine, to use the <tt>classpath</tt> flag when you run
+JLex on your specification (in a file called <tt>Little.jlex</tt>),
+and then to compile the generated scanner, type the following, or put
+it into your Makefile:
+<UL>
+<tt>java -classpath .:JLex.jar:java_cup.jar JLex.Main Little.jlex</tt><br>
+<tt>javac -classpath .:JLex.jar:java_cup.jar Little.jlex.java</tt>
+</UL>
+<P>
+<H3>Windows</H3>
+The CSL says that on Windows machines, the latest jdk does not
+add javac to the system path.
+So they suggest using something like the following commands, instead
+of the ones given for Linux users, above:
+<UL>
+<tt>java -classpath .;.\JLex.jar;.\java_cup.jar JLex.Main Little.jlex</tt><br>
+<tt>Program Files\java\jdk1.6.0_23\bin\javac.exe -classpath .;.\JLex.jar;.\java_cup.jar Little.jlex.java</tt>
+</UL>

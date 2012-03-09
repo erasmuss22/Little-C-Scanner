@@ -1,0 +1,80 @@
+1 1 {
+1 2 }
+1 3 (
+1 4 )
+1 5 ,
+1 6 =
+1 7 ;
+1 8 +
+1 9 -
+1 10 *
+1 11 /
+1 12 ++
+1 13 --
+1 14 !
+1 15 &&
+1 16 ||
+1 17 ==
+1 18 !=
+1 19 <
+1 20 >
+1 21 <=
+1 22 >=
+1 23 ++
+3 23 +
+1 24 --
+3 24 -
+1 25 ==
+3 25 =
+1 26 &&
+1 27 int
+1 28 void
+1 29 double
+1 30 if
+1 31 else
+1 32 while
+1 33 return
+1 34 scanf
+1 35 printf
+1 36 ID
+1 37 ID
+1 38 ID
+1 39 ID
+1 40 ID
+1 41 ID
+1 42 ID
+1 43 ID
+1 44 ID
+1 45 ID
+1 46 ID
+1 47 ID
+2 48 int
+2 49 ID
+2 50 ID
+1 51 int literal
+2 51 int
+1 52 ID
+1 53 "%d"
+1 54 "%f"
+1 55 str literal
+1 56 str literal
+1 57 int literal
+1 58 int literal
+1 59 dbl literal
+1 60 dbl literal
+1 61 dbl literal
+1 62 dbl literal
+4 62 dbl literal
+1 63 dbl literal
+3 63 dbl literal
+1 64 int literal
+2 64 ,
+3 64 dbl literal
+1 66 str literal
+1 67 str literal
+1 68 str literal
+1 69 str literal
+1 70 str literal
+1 71 str literal
+2 74 str literal
+1 75 str literal

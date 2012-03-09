@@ -1,0 +1,35 @@
+@
+#
+$
+%
+^
+~
+`
+:
+?
+.
++++
+0.0.0
+111111111111111111111111111111111111111111111111
+-2147483649
+3illegalIdentifier
+""
+"\"
+"\n"
+"\t"
+"\'"
+"\""
+"\\"
+"unterminated
+"also unterminated \"
+"backslash followed by space: \ is not allowed"
+"bad escaped character: \a "
+"newline after backslash \
+abc
+"newline after newline \n
+xyz
+"bad escaped: \a AND not terminated
+/* unterminated comment
+/* unterminated /* nested comment */
+"another unterminated string because of EOF
+

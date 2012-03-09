@@ -1,0 +1,25 @@
+@
+#
+$
+%
+^
+~
+`
+:
+?
+.
+111111111111111111111111111111111111111111111111
+3illegalIdentifier
+\
+\n
+\t
+\'
+\"
+\\
+"unterminated
+"also unterminated \"
+"backslash followed by space: \ is not allowed"
+"bad escaped character: \a "
+"bad escaped: \a AND not terminated
+/* unterminated comment
+"another unterminated string

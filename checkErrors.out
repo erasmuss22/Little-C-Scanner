@@ -1,0 +1,16 @@
+Something wasn't an error! 3 11 +
+Something wasn't an error! 1 12 0.0
+Something wasn't an error! 4 12 0.0
+Something wasn't an error! 214748365 13 2147483647
+Something wasn't an error! 1 14 -
+Something wasn't an error! 214748366 14 2147483647
+Something wasn't an error! 1 15 3
+Something wasn't an error! 2 15 illegalIdentifier
+Something wasn't an error! 1 16 ""
+Something wasn't an error! 1 18 "\n"
+Something wasn't an error! 1 19 "\t"
+Something wasn't an error! 1 20 "\'"
+Something wasn't an error! 1 21 "\""
+Something wasn't an error! 1 22 "\\"
+Something wasn't an error! 1 30 xyz
+Something wasn't an error! 
